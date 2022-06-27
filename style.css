@@ -1,0 +1,25 @@
+/* count down timer */
+
+.count-down-container{
+    background: linear-gradient(to bottom rgba(#f5f5b2, #f73f3f));
+    height: 200px;
+  }
+  
+  .count-down-row{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 40px 60px;
+  }
+  
+  .count-down-row h1{
+    font-size: 50px;
+  }
+  
+  .count-down-row h4{
+    font-size: 30px;
+  }
+  
+  .days, .hours, .mins, .seconds{
+    text-align: center;
+  }
